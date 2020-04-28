@@ -108,6 +108,7 @@ class CompaniesList extends Component {
 
         return (
             <div className="companies">
+                <h2>Lista firm</h2>
                 <input type="text" placeholder="Find Company" onChange={this.fileterCompanies}/>
                 <div className="row">
                     <h3 onClick={()=>this.sortOrders('id')}>ID</h3>
